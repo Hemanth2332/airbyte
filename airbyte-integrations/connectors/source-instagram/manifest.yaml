@@ -820,7 +820,7 @@ spec:
           - "17841400123456789"
       num_workers:
         type: integer
-        title: Number of concurrent workers
+        title: Number of concurrent threads
         minimum: 2
         maximum: 40
         default: 15
