@@ -21,7 +21,7 @@ from ..conftest import get_source
 from .config import ConfigBuilder
 from .pagination import NEXT_PAGE_TOKEN, InstagramPaginationStrategy
 from .request_builder import get_account_request
-from .response_builder import build_response, get_account_response, get_multiple_accounts_response, SECOND_BUSINESS_ACCOUNT_ID
+from .response_builder import SECOND_BUSINESS_ACCOUNT_ID, build_response, get_account_response, get_multiple_accounts_response
 from .utils import config, read_output
 
 
