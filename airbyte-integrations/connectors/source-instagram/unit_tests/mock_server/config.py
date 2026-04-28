@@ -28,9 +28,5 @@ class ConfigBuilder:
         self._config["start_date"] = start_date
         return self
 
-    def with_ig_account_id(self, ig_account_id: str) -> "ConfigBuilder":
-        self._config["ig_account_id"] = ig_account_id
-        return self
-
     def build(self) -> MutableMapping[str, Any]:
         return self._config
