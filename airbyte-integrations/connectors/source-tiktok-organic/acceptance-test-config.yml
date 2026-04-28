@@ -1,4 +1,0 @@
-connector_image: airbyte/source-tiktok-organic:dev
-tests:
-  spec:
-    - spec_path: "source_tiktok_organic/spec.json"
